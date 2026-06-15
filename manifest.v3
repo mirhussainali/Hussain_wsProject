@@ -10,18 +10,19 @@
   <null name="shutdown_services"/>
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
+    <value name="jrt-ert-services">1.0</value>
   </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">5</value>
+  <value name="build">6</value>
   <null name="description"/>
   <value name="created_date">14-06-2026 23:13:19 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-06-15T02:29:00.535587129Z</value>
+  <value name="lastUpdated">2026-06-15T02:30:24.319052388Z</value>
   <value name="wmProjectId">fl8755a30e8f20493783618b5b353f9c7b</value>
   <value name="creator">H Ali</value>
 </Values>
