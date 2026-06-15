@@ -1,0 +1,13 @@
+version: "1.0"
+projectName: Hussain_wsProject
+runtimes:
+- runtimeAlias: HA_ERT0
+  assets:
+  - name: fld_111419462_stage00.projects.fl8755a30e8f20493783618b5b353f9c7b.integrations:ProcessPOToCanonicalOutbound
+    type: flow
+    stepId: /12
+    reference: fld_111419462_stage00.projects.fl8755a30e8f20493783618b5b353f9c7b.WmPackageServiceProvider.jrtutils:getERTDateTimeStamp
+  - name: fld_111419462_stage00.projects.fl8755a30e8f20493783618b5b353f9c7b.integrations:ProcessPOToCanonicalOutbound
+    type: flow
+    stepId: /13
+    reference: fld_111419462_stage00.projects.fl8755a30e8f20493783618b5b353f9c7b.WmPackageServiceProvider.jrtservices:enrichPO
